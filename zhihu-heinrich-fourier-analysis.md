@@ -13,21 +13,21 @@
 
 我们普通人对一段音乐最普遍的理解：一个随着时间变化的震动。
 
-![2ca39677363c65a305207a5491b75825_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_2ca39677363c65a305207a5491b75825.jpg)
+![2ca39677363c65a305207a5491b75825_hd](./static/images/zhihu-heinrich-fourier-analysis_2ca39677363c65a305207a5491b75825.jpg)
 
 对于学音乐的人来说，更直观的理解：很多在时间上离散的频率。
 
-![8e1fce9d7607d97cebf73e1f36f03f06_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_8e1fce9d7607d97cebf73e1f36f03f06_hd.jpg)
+![8e1fce9d7607d97cebf73e1f36f03f06_hd](./static/images/zhihu-heinrich-fourier-analysis_8e1fce9d7607d97cebf73e1f36f03f06_hd.jpg)
 
 将以上两图简化后：
 
 时域：
 
-![d4fa1de0327eb491a6941ac84a56e432_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_d4fa1de0327eb491a6941ac84a56e432_hd.jpg)
+![d4fa1de0327eb491a6941ac84a56e432_hd](./static/images/zhihu-heinrich-fourier-analysis_d4fa1de0327eb491a6941ac84a56e432_hd.jpg)
 
 频域：
 
-![1ca366b593d877a16c8a49773774b5b9_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_1ca366b593d877a16c8a49773774b5b9_hd.jpg)
+![1ca366b593d877a16c8a49773774b5b9_hd](./static/images/zhihu-heinrich-fourier-analysis_1ca366b593d877a16c8a49773774b5b9_hd.jpg)
 
 在时域，我们看到的是钢琴上的琴键不停地跳动，而在频域，却只是一个静止的音符。
 
@@ -41,7 +41,7 @@
 
 举个栗子，用正弦曲线波叠加出一个带90度角的矩形波：
 
-![055bf33bb84555a952804c5dbeb75dd9_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_055bf33bb84555a952804c5dbeb75dd9_hd.jpg)
+![055bf33bb84555a952804c5dbeb75dd9_hd](./static/images/zhihu-heinrich-fourier-analysis_055bf33bb84555a952804c5dbeb75dd9_hd.jpg)
 
 第一幅图是1个正弦波： $\cos(t)$ 
 
@@ -57,7 +57,7 @@
 
 现在换个角度来看：
 
-![563deb4a6599d052b3ba108661872c57_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_563deb4a6599d052b3ba108661872c57_hd.jpg)
+![563deb4a6599d052b3ba108661872c57_hd](./static/images/zhihu-heinrich-fourier-analysis_563deb4a6599d052b3ba108661872c57_hd.jpg)
 
 前面黑线是正弦波叠加而成的波形，后面依次是参与叠加的不同频率的正弦波（图中的直线是振幅为0的正弦波，即为组成某些特定波形，有些频率的正弦波成分是不需要的），称为频率分量。
 
@@ -71,27 +71,27 @@
 
 如何定义正弦波：
 
-![zhihu-heinrich-fourier-analysis_81ca9447d6c45c162c2d76df75a6690a](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_81ca9447d6c45c162c2d76df75a6690a.jpg)
+![zhihu-heinrich-fourier-analysis_81ca9447d6c45c162c2d76df75a6690a](./static/images/zhihu-heinrich-fourier-analysis_81ca9447d6c45c162c2d76df75a6690a.jpg)
 
 正弦波就是一个圆周运动在一条直线上的投影。所以频域的基本单元也可以理解为一个始终在旋转的圆：
 
-![Fourier_series_square_wave_circles_animation](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_841476e8e15e1d08114b65c50b741930.gif)
+![Fourier_series_square_wave_circles_animation](./static/images/zhihu-heinrich-fourier-analysis_841476e8e15e1d08114b65c50b741930.gif)
 
 所以，一个矩形波在频域里的模样：
 
-![e2e3c0af3bdbcba721c5415a4c65da9e_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_e2e3c0af3bdbcba721c5415a4c65da9e.jpg)
+![e2e3c0af3bdbcba721c5415a4c65da9e_hd](./static/images/zhihu-heinrich-fourier-analysis_e2e3c0af3bdbcba721c5415a4c65da9e.jpg)
 
 很难理解？那就看看相应的频域图像，也就是俗称的频谱：
 
-![zhihu-heinrich-fourier-analysis_19679c871bd33d94e2fc8b174f0d14ab](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_19679c871bd33d94e2fc8b174f0d14ab.jpg)
+![zhihu-heinrich-fourier-analysis_19679c871bd33d94e2fc8b174f0d14ab](./static/images/zhihu-heinrich-fourier-analysis_19679c871bd33d94e2fc8b174f0d14ab.jpg)
 
 再清楚一点：
 
-![40cf849e55ed95732a60b52d4019d609_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_40cf849e55ed95732a60b52d4019d609.jpg)
+![40cf849e55ed95732a60b52d4019d609_hd](./static/images/zhihu-heinrich-fourier-analysis_40cf849e55ed95732a60b52d4019d609.jpg)
 
 动态图：
 
-![zhihu-heinrich-fourier-analysis_h4bd765he25e2d0h214b65c50b742i30.gif](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_h4bd765he25e2d0h214b65c50b742i30.gif.gif)
+![zhihu-heinrich-fourier-analysis_h4bd765he25e2d0h214b65c50b742i30.gif](./static/images/zhihu-heinrich-fourier-analysis_h4bd765he25e2d0h214b65c50b742i30.gif.gif)
 
 ### 三、傅里叶级数的相位谱
 
@@ -103,17 +103,17 @@
 
 从侧面看的频率谱并没有包含时域中全部的信息。因为频谱保存了振幅和频率信息，而没有提及相位信息。在基础正弦波 $A\cdot\sin(\omega_{t}+\theta)$ 中，振幅、频率、相位缺一不可，相位决定了波的位置。
 
-![zhihu-heinrich-fourier-analysis_07199fc0250791d768771b50c098e26a](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_07199fc0250791d768771b50c098e26a.jpg)
+![zhihu-heinrich-fourier-analysis_07199fc0250791d768771b50c098e26a](./static/images/zhihu-heinrich-fourier-analysis_07199fc0250791d768771b50c098e26a.jpg)
 
 鉴于正弦波是周期的，需要设定一个用来标记正弦波位置的东西。在图中就是那些小红点。小红点是距离频率轴最近的波峰。
 
-![zhihu-heinrich-fourier-analysis_e1985fe86283a7b14d1fc7e11d322fcb](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_e1985fe86283a7b14d1fc7e11d322fcb.jpg)
+![zhihu-heinrich-fourier-analysis_e1985fe86283a7b14d1fc7e11d322fcb](./static/images/zhihu-heinrich-fourier-analysis_e1985fe86283a7b14d1fc7e11d322fcb.jpg)
 
 这里需要纠正一个概念：时间差并不是相位差。如果将整个周期看作 $2\pi$ 的话，相位差则是时间差在一个周期中所占的比例，即 $2\pi\frac{t}{T}$。人为定义相位谱的值域为 $(-\pi，\pi]$。
 
 最后来张大合集：
 
-![4695ce06197677bab880cd55b6846f12_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_4695ce06197677bab880cd55b6846f12.jpg)
+![4695ce06197677bab880cd55b6846f12_hd](./static/images/zhihu-heinrich-fourier-analysis_4695ce06197677bab880cd55b6846f12.jpg)
 
 ### 四、傅里叶变换
 
@@ -129,7 +129,7 @@
 
 上图：
 
-![zhihu-heinrich-fourier-analysis_419cd0b2e965aca25d5f8a5a6362d728](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_419cd0b2e965aca25d5f8a5a6362d728.jpg)
+![zhihu-heinrich-fourier-analysis_419cd0b2e965aca25d5f8a5a6362d728](./static/images/zhihu-heinrich-fourier-analysis_419cd0b2e965aca25d5f8a5a6362d728.jpg)
 
 换一个角度理解：傅里叶变换实际上是对一个周期无限大的函数进行傅里叶级数分解。
 
@@ -141,11 +141,11 @@
 
 离散谱：
 
-![a185be412974fd73a7925cf1f1cc5372_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_a185be412974fd73a7925cf1f1cc5372.jpg)
+![a185be412974fd73a7925cf1f1cc5372_hd](./static/images/zhihu-heinrich-fourier-analysis_a185be412974fd73a7925cf1f1cc5372.jpg)
 
 连续谱：
 
-![ece53f825c6de629befba3de12f929a7_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_ece53f825c6de629befba3de12f929a7.jpg)
+![ece53f825c6de629befba3de12f929a7_hd](./static/images/zhihu-heinrich-fourier-analysis_ece53f825c6de629befba3de12f929a7.jpg)
 
 原来离散谱的叠加，变成了连续谱的累积。所以在计算上也从求和符号变成了积分符号。
 
@@ -153,13 +153,13 @@
 
 前置，虚数的意义，$i^2=-1$：
 
-![42e1f6dc43e8868b4962f5ba389a5df4_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_42e1f6dc43e8868b4962f5ba389a5df4.jpg)
+![42e1f6dc43e8868b4962f5ba389a5df4_hd](./static/images/zhihu-heinrich-fourier-analysis_42e1f6dc43e8868b4962f5ba389a5df4.jpg)
 
 数轴上红色的线段长度是1。当它乘以3的时候，变成了蓝色的线段；而当它乘以-1的时候，变成了绿色的线段，或者说在数轴上围绕原点旋转了180度。
 
 我们知道，乘-1其实就是乘了两次 i，线段旋转了180度，那么乘一次 i 呢？答案就是旋转了90度。
 
-![3e88e9463e4667e50ebdda51dee88358_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_3e88e9463e4667e50ebdda51dee88358.jpg)
+![3e88e9463e4667e50ebdda51dee88358_hd](./static/images/zhihu-heinrich-fourier-analysis_3e88e9463e4667e50ebdda51dee88358.jpg)
 
 由此，我们了解到乘虚数 i 的一个功能，**旋转**。
 
@@ -173,7 +173,7 @@ $$
 
 图像含义：
 
-![974efc6a99e06dcd623193e960ccbe93_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_974efc6a99e06dcd623193e960ccbe93.jpg)
+![974efc6a99e06dcd623193e960ccbe93_hd](./static/images/zhihu-heinrich-fourier-analysis_974efc6a99e06dcd623193e960ccbe93.jpg)
 
 欧拉公式所描绘的是一个随时间变化，在复平面上做圆周运动的点，在时间轴上成了一条螺旋线。如果只看它的实数部分，即左侧的投影，就是一个余弦函数，而右侧的投影，则是一个正弦函数。
 
@@ -203,12 +203,13 @@ $e^{it}$ 可以理解为一条逆时针旋转的螺旋线，而 $e^{-it}$ 则可
 
 至此，想象一下，连续的螺旋线会是什么样子：
 
-![zhihu-heinrich-fourier-analysis_f116ae26859bdc80b28ea0f8f894ccc0](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_f116ae26859bdc80b28ea0f8f894ccc0.jpg)
+![zhihu-heinrich-fourier-analysis_f116ae26859bdc80b28ea0f8f894ccc0](./static/images/zhihu-heinrich-fourier-analysis_f116ae26859bdc80b28ea0f8f894ccc0.jpg)
 
 猜猜这个图形在时域是什么样子？
 
-![zhihu-heinrich-fourier-analysis_0fdfa0a9b6eea036703ab2499381080c](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_0fdfa0a9b6eea036703ab2499381080c.jpg)
+![zhihu-heinrich-fourier-analysis_0fdfa0a9b6eea036703ab2499381080c](./static/images/zhihu-heinrich-fourier-analysis_0fdfa0a9b6eea036703ab2499381080c.jpg)
 
 最后，用一张图总结以下：
 
-![zhihu-heinrich-fourier-analysis_097c9051af221c171730d4bc8f436a72](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-heinrich-fourier-analysis_097c9051af221c171730d4bc8f436a72.jpg)
+![zhihu-heinrich-fourier-analysis_097c9051af221c171730d4bc8f436a72](./static/images/zhihu-heinrich-fourier-analysis_097c9051af221c171730d4bc8f436a72.jpg)
+
