@@ -1,7 +1,7 @@
 傅里叶分析笔记
 ------------------
 
-教程：[傅里叶分析之掐死教程（完整版）](<https://zhuanlan.zhihu.com/p/19763358>) 
+资料：[傅里叶分析之掐死教程（完整版）- 知乎](<https://zhuanlan.zhihu.com/p/19763358>) 
 
 [TOC]
 
@@ -13,21 +13,21 @@
 
 我们普通人对一段音乐最普遍的理解：一个随着时间变化的震动。
 
-![2ca39677363c65a305207a5491b75825_hd](./static/images/zhihu-heinrich-fourier-analysis_2ca39677363c65a305207a5491b75825.jpg)
+![2ca39677363c65a305207a5491b75825](./static/images/zhihu-heinrich-fourier-analysis_2ca39677363c65a305207a5491b75825.jpg)
 
 对于学音乐的人来说，更直观的理解：很多在时间上离散的频率。
 
-![8e1fce9d7607d97cebf73e1f36f03f06_hd](./static/images/zhihu-heinrich-fourier-analysis_8e1fce9d7607d97cebf73e1f36f03f06_hd.jpg)
+![8e1fce9d7607d97cebf73e1f36f03f06](./static/images/zhihu-heinrich-fourier-analysis_8e1fce9d7607d97cebf73e1f36f03f06.jpg)
 
 将以上两图简化后：
 
 时域：
 
-![d4fa1de0327eb491a6941ac84a56e432_hd](./static/images/zhihu-heinrich-fourier-analysis_d4fa1de0327eb491a6941ac84a56e432_hd.jpg)
+![d4fa1de0327eb491a6941ac84a56e432](./static/images/zhihu-heinrich-fourier-analysis_d4fa1de0327eb491a6941ac84a56e432.jpg)
 
 频域：
 
-![1ca366b593d877a16c8a49773774b5b9_hd](./static/images/zhihu-heinrich-fourier-analysis_1ca366b593d877a16c8a49773774b5b9_hd.jpg)
+![1ca366b593d877a16c8a49773774b5b9](./static/images/zhihu-heinrich-fourier-analysis_1ca366b593d877a16c8a49773774b5b9.jpg)
 
 在时域，我们看到的是钢琴上的琴键不停地跳动，而在频域，却只是一个静止的音符。
 
@@ -41,7 +41,7 @@
 
 举个栗子，用正弦曲线波叠加出一个带90度角的矩形波：
 
-![055bf33bb84555a952804c5dbeb75dd9_hd](./static/images/zhihu-heinrich-fourier-analysis_055bf33bb84555a952804c5dbeb75dd9_hd.jpg)
+![055bf33bb84555a952804c5dbeb75dd9](./static/images/zhihu-heinrich-fourier-analysis_055bf33bb84555a952804c5dbeb75dd9.jpg)
 
 第一幅图是1个正弦波： $\cos(t)$ 
 
@@ -57,7 +57,7 @@
 
 现在换个角度来看：
 
-![563deb4a6599d052b3ba108661872c57_hd](./static/images/zhihu-heinrich-fourier-analysis_563deb4a6599d052b3ba108661872c57_hd.jpg)
+![563deb4a6599d052b3ba108661872c57](./static/images/zhihu-heinrich-fourier-analysis_563deb4a6599d052b3ba108661872c57.jpg)
 
 前面黑线是正弦波叠加而成的波形，后面依次是参与叠加的不同频率的正弦波（图中的直线是振幅为0的正弦波，即为组成某些特定波形，有些频率的正弦波成分是不需要的），称为频率分量。
 
@@ -79,7 +79,7 @@
 
 所以，一个矩形波在频域里的模样：
 
-![e2e3c0af3bdbcba721c5415a4c65da9e_hd](./static/images/zhihu-heinrich-fourier-analysis_e2e3c0af3bdbcba721c5415a4c65da9e.jpg)
+![e2e3c0af3bdbcba721c5415a4c65da9e](./static/images/zhihu-heinrich-fourier-analysis_e2e3c0af3bdbcba721c5415a4c65da9e.jpg)
 
 很难理解？那就看看相应的频域图像，也就是俗称的频谱：
 
@@ -87,7 +87,7 @@
 
 再清楚一点：
 
-![40cf849e55ed95732a60b52d4019d609_hd](./static/images/zhihu-heinrich-fourier-analysis_40cf849e55ed95732a60b52d4019d609.jpg)
+![40cf849e55ed95732a60b52d4019d609](./static/images/zhihu-heinrich-fourier-analysis_40cf849e55ed95732a60b52d4019d609.jpg)
 
 动态图：
 
@@ -113,7 +113,7 @@
 
 最后来张大合集：
 
-![4695ce06197677bab880cd55b6846f12_hd](./static/images/zhihu-heinrich-fourier-analysis_4695ce06197677bab880cd55b6846f12.jpg)
+![4695ce06197677bab880cd55b6846f12](./static/images/zhihu-heinrich-fourier-analysis_4695ce06197677bab880cd55b6846f12.jpg)
 
 ### 四、傅里叶变换
 
@@ -141,11 +141,11 @@
 
 离散谱：
 
-![a185be412974fd73a7925cf1f1cc5372_hd](./static/images/zhihu-heinrich-fourier-analysis_a185be412974fd73a7925cf1f1cc5372.jpg)
+![a185be412974fd73a7925cf1f1cc5372](./static/images/zhihu-heinrich-fourier-analysis_a185be412974fd73a7925cf1f1cc5372.jpg)
 
 连续谱：
 
-![ece53f825c6de629befba3de12f929a7_hd](./static/images/zhihu-heinrich-fourier-analysis_ece53f825c6de629befba3de12f929a7.jpg)
+![ece53f825c6de629befba3de12f929a7](./static/images/zhihu-heinrich-fourier-analysis_ece53f825c6de629befba3de12f929a7.jpg)
 
 原来离散谱的叠加，变成了连续谱的累积。所以在计算上也从求和符号变成了积分符号。
 
@@ -153,13 +153,13 @@
 
 前置，虚数的意义，$i^2=-1$：
 
-![42e1f6dc43e8868b4962f5ba389a5df4_hd](./static/images/zhihu-heinrich-fourier-analysis_42e1f6dc43e8868b4962f5ba389a5df4.jpg)
+![42e1f6dc43e8868b4962f5ba389a5df4](./static/images/zhihu-heinrich-fourier-analysis_42e1f6dc43e8868b4962f5ba389a5df4.jpg)
 
 数轴上红色的线段长度是1。当它乘以3的时候，变成了蓝色的线段；而当它乘以-1的时候，变成了绿色的线段，或者说在数轴上围绕原点旋转了180度。
 
 我们知道，乘-1其实就是乘了两次 i，线段旋转了180度，那么乘一次 i 呢？答案就是旋转了90度。
 
-![3e88e9463e4667e50ebdda51dee88358_hd](./static/images/zhihu-heinrich-fourier-analysis_3e88e9463e4667e50ebdda51dee88358.jpg)
+![3e88e9463e4667e50ebdda51dee88358](./static/images/zhihu-heinrich-fourier-analysis_3e88e9463e4667e50ebdda51dee88358.jpg)
 
 由此，我们了解到乘虚数 i 的一个功能，**旋转**。
 
@@ -173,7 +173,7 @@ $$
 
 图像含义：
 
-![974efc6a99e06dcd623193e960ccbe93_hd](./static/images/zhihu-heinrich-fourier-analysis_974efc6a99e06dcd623193e960ccbe93.jpg)
+![974efc6a99e06dcd623193e960ccbe93](./static/images/zhihu-heinrich-fourier-analysis_974efc6a99e06dcd623193e960ccbe93.jpg)
 
 欧拉公式所描绘的是一个随时间变化，在复平面上做圆周运动的点，在时间轴上成了一条螺旋线。如果只看它的实数部分，即左侧的投影，就是一个余弦函数，而右侧的投影，则是一个正弦函数。
 
