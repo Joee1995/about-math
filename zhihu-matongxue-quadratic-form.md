@@ -9,11 +9,11 @@
 
 二次函数：
 
-![zhihu -matongxue-quadratic-form-1269517998d6a434999ead02cc8fdcb9](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu -matongxue-quadratic-form-1269517998d6a434999ead02cc8fdcb9.webp)
+![zhihu-matongxue-quadratic-form-1269517998d6a434999ead02cc8fdcb9](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-1269517998d6a434999ead02cc8fdcb9.webp)
 
 二次方程：
 
-![zhihu -matongxue-quadratic-form-21b6e595b744ca7efefcc4c5fda9cd23](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu -matongxue-quadratic-form-21b6e595b744ca7efefcc4c5fda9cd23.webp)
+![zhihu-matongxue-quadratic-form-21b6e595b744ca7efefcc4c5fda9cd23](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-21b6e595b744ca7efefcc4c5fda9cd23.webp)
 
 对于二次函数或者二次方程，二次部分是主要部分，往往研究二次这部分就够了。
 
@@ -47,23 +47,23 @@ $$
 
 考虑如下圆及对应的二次型矩阵：
 
-![v2-9cebb201788a3f28c5124237f7427c15_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu -matongxue-quadratic-form-9cebb201788a3f28c5124237f7427c15.jpg)
+![v2-9cebb201788a3f28c5124237f7427c15_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-9cebb201788a3f28c5124237f7427c15.jpg)
 
 现在改变一下二次型：
 
-![v2-702effd53c980e191b53dd549ddb7770_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu -matongxue-quadratic-form-702effd53c980e191b53dd549ddb7770.jpg)
+![v2-702effd53c980e191b53dd549ddb7770_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-702effd53c980e191b53dd549ddb7770.jpg)
 
 可以看到，椭圆和圆之间是线性关系（可以通过线性变换进行转换）。
 
 继续改变：
 
-![v2-979407d3adbe4ae4683839076a5385ee_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu -matongxue-quadratic-form-979407d3adbe4ae4683839076a5385ee.jpg)
+![v2-979407d3adbe4ae4683839076a5385ee_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-979407d3adbe4ae4683839076a5385ee.jpg)
 
 双曲线和圆之间也是线性关系。
 
 其实圆、椭圆、双曲线之间关系很紧密的，统称为圆锥曲线，都是圆锥体和平面的交线：
 
-![zhihu -matongxue-quadratic-form-5f8d17a5235be0ed100b1163b83cb0bb](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu -matongxue-quadratic-form-5f8d17a5235be0ed100b1163b83cb0bb.webp)
+![zhihu-matongxue-quadratic-form-5f8d17a5235be0ed100b1163b83cb0bb](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-5f8d17a5235be0ed100b1163b83cb0bb.webp)
 
 可以看到，一个平面在圆锥体上运动得到了圆、椭圆、双曲线，这也是它们之间具有线性关系的来源（平面的运动实际上是线性的）。
 
@@ -71,7 +71,7 @@ $$
 
 考虑如下椭圆及对应二次型矩阵：
 
-![v2-618a807b6d61dd60afe77ae7c533bfed_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu -matongxue-quadratic-form-618a807b6d61dd60afe77ae7c533bfed.jpg)
+![v2-618a807b6d61dd60afe77ae7c533bfed_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-618a807b6d61dd60afe77ae7c533bfed.jpg)
 
 这个椭圆看起来有点歪，不太好处理，我们来把它扶正，这就叫做**规范化**。
 
