@@ -84,8 +84,8 @@ $$
 
 不失一般性：
 
-- $tr\left( A \right)=\sum_{i=1}^{n} \lambda_{i}$ 
-- $det\left( A \right)=\prod_{i=1}^{n} \lambda_{i}$ 
+- $\operatorname{tr}\left( A \right)=\sum_{i=1}^{n} \lambda_{i}$ 
+- $\operatorname{det}\left( A \right)=\prod_{i=1}^{n} \lambda_{i}$ 
 
 其中，$\lambda_{i}$ 为矩阵 $A$ 的特征值。
 
@@ -121,7 +121,7 @@ b_{n-1}=-\left( a_{11}+a_{22}+\cdots+a_{nn} \right)
 $$
 进而：
 $$
-\sum_{k=1}^{n} \lambda_{k}=\sum_{k=1}^{n} a_{kk}=tr \left( A \right)
+\sum_{k=1}^{n} \lambda_{k}=\sum_{k=1}^{n} a_{kk}=\operatorname{tr}\left( A \right)
 $$
 
 
