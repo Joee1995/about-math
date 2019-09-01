@@ -1,7 +1,7 @@
 二次型的意义笔记
 -------------------------
 
-资料：[二次型的意义是什么？有什么应用？- 知乎](<https://www.zhihu.com/question/38902714?from=profile_question_card>) 
+资料：[如何理解二次型？](<https://www.matongxue.com/madocs/271/>) 
 
 [TOC]
 
@@ -9,11 +9,11 @@
 
 二次函数：
 
-![zhihu-matongxue-quadratic-form-1269517998d6a434999ead02cc8fdcb9](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-1269517998d6a434999ead02cc8fdcb9.webp)
+![matongxue-quadratic-form-1269517998d6a434999ead02cc8fdcb9](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\matongxue-quadratic-form-1269517998d6a434999ead02cc8fdcb9.webp)
 
 二次方程：
 
-![zhihu-matongxue-quadratic-form-21b6e595b744ca7efefcc4c5fda9cd23](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-21b6e595b744ca7efefcc4c5fda9cd23.webp)
+![matongxue-quadratic-form-21b6e595b744ca7efefcc4c5fda9cd23](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\matongxue-quadratic-form-21b6e595b744ca7efefcc4c5fda9cd23.webp)
 
 对于二次函数或者二次方程，二次部分是主要部分，往往研究二次这部分就够了。
 
@@ -47,23 +47,23 @@ $$
 
 考虑如下圆及对应的二次型矩阵：
 
-![v2-9cebb201788a3f28c5124237f7427c15_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-9cebb201788a3f28c5124237f7427c15.jpg)
+![matongxue-quadratic-form-9cebb201788a3f28c5124237f7427c15](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\matongxue-quadratic-form-9cebb201788a3f28c5124237f7427c15.jpg)
 
 现在改变一下二次型：
 
-![v2-702effd53c980e191b53dd549ddb7770_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-702effd53c980e191b53dd549ddb7770.jpg)
+![matongxue-quadratic-form-702effd53c980e191b53dd549ddb7770](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\matongxue-quadratic-form-702effd53c980e191b53dd549ddb7770.jpg)
 
 可以看到，椭圆和圆之间是线性关系（可以通过线性变换进行转换）。
 
 继续改变：
 
-![v2-979407d3adbe4ae4683839076a5385ee_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-979407d3adbe4ae4683839076a5385ee.jpg)
+![matongxue-quadratic-form-979407d3adbe4ae4683839076a5385ee](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\matongxue-quadratic-form-979407d3adbe4ae4683839076a5385ee.jpg)
 
 双曲线和圆之间也是线性关系。
 
 其实圆、椭圆、双曲线之间关系很紧密的，统称为圆锥曲线，都是圆锥体和平面的交线：
 
-![zhihu-matongxue-quadratic-form-5f8d17a5235be0ed100b1163b83cb0bb](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-5f8d17a5235be0ed100b1163b83cb0bb.webp)
+![matongxue-quadratic-form-5f8d17a5235be0ed100b1163b83cb0bb](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\matongxue-quadratic-form-5f8d17a5235be0ed100b1163b83cb0bb.webp)
 
 可以看到，一个平面在圆锥体上运动得到了圆、椭圆、双曲线，这也是它们之间具有线性关系的来源（平面的运动实际上是线性的）。
 
@@ -71,11 +71,11 @@ $$
 
 考虑如下椭圆及对应二次型矩阵：
 
-![v2-618a807b6d61dd60afe77ae7c533bfed_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-618a807b6d61dd60afe77ae7c533bfed.jpg)
+![matongxue-quadratic-form-618a807b6d61dd60afe77ae7c533bfed](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\matongxue-quadratic-form-618a807b6d61dd60afe77ae7c533bfed.jpg)
 
 这个椭圆看起来有点歪，不太好处理，我们来把它扶正，这就叫做**规范化**。
 
-往下读之前可以先参看 [如何理解特征值？](./zhihu-matongxue-matrix-eigenvalue.md)。
+往下读之前可以先参看 [如何理解特征值？](./matongxue-matrix-eigenvalue.md)。
 
 首先，矩阵代表运动，包含：旋转、伸缩、投影。
 
@@ -83,7 +83,7 @@ $$
 
 具体到以上栗子：
 
-![v2-e97c0dfe201263e9ffc85817b91a8403_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-e97c0dfe201263e9ffc85817b91a8403.jpg)
+![matongxue-quadratic-form-e97c0dfe201263e9ffc85817b91a8403](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\matongxue-quadratic-form-e97c0dfe201263e9ffc85817b91a8403.jpg)
 
 将矩阵进行特征值分解：
 $$
@@ -94,7 +94,7 @@ A=\left[\begin{array}{cc}{2} & {-1} \\ {-1} & {2}\end{array}\right]=
 $$
 实际上我们是将运动分解成了**伸缩部分**和**旋转部分**，那么我们只需保留伸缩部分就相当于把矩阵扶正了：
 
-![v2-5abd5b651832797d1b74922e635f98dd_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-5abd5b651832797d1b74922e635f98dd.jpg)
+![matongxue-quadratic-form-5abd5b651832797d1b74922e635f98dd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\matongxue-quadratic-form-5abd5b651832797d1b74922e635f98dd.jpg)
 
 所以，用二次型矩阵进行规范化是非常轻松的事情。
 
@@ -115,15 +115,15 @@ $$
 
 正定：
 
-![v2-ebdfb7c7510ac85a582d6e79c1ef37b3_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-ebdfb7c7510ac85a582d6e79c1ef37b3.jpg)
+![matongxue-quadratic-form-ebdfb7c7510ac85a582d6e79c1ef37b3](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\matongxue-quadratic-form-ebdfb7c7510ac85a582d6e79c1ef37b3.jpg)
 
 半正定：
 
-![v2-99b76aece0306301d4b983bf4a30f048_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-99b76aece0306301d4b983bf4a30f048.jpg)
+![matongxue-quadratic-form-99b76aece0306301d4b983bf4a30f048](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\matongxue-quadratic-form-99b76aece0306301d4b983bf4a30f048.jpg)
 
 不定：
 
-![v2-374e0eef3c259af60bef57c22beb937e_hd](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\zhihu-matongxue-quadratic-form-374e0eef3c259af60bef57c22beb937e.jpg)
+![matongxue-quadratic-form-374e0eef3c259af60bef57c22beb937e](C:\Users\Joee\Desktop\github\homepage\about-math\static\images\matongxue-quadratic-form-374e0eef3c259af60bef57c22beb937e.jpg)
 
 既然二次型能够用矩阵表示，那么能否用矩阵来判断正负定呢？答案显然是肯定的。
 
